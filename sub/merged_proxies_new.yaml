@@ -1889,7 +1889,7 @@ proxies:
   country: US
   h2-opts: {}
   http-opts: {}
-  name: None_None_vmess_1171
+  name: United States_None_vmess_1171
   network: ws
   port: 8080
   server: kkyx.yydsii.com
@@ -2604,7 +2604,7 @@ proxy-groups:
   - United States_Chicago_ss_1168
   - United States_None_vmess_1169
   - United States_Washington_vmess_1170
-  - None_None_vmess_1171
+  - United States_None_vmess_1171
   - United States_None_vmess_1172
   - United States_None_vmess_1173
   - United States_None_vmess_1174
@@ -2811,7 +2811,7 @@ proxy-groups:
   - United States_Chicago_ss_1168
   - United States_None_vmess_1169
   - United States_Washington_vmess_1170
-  - None_None_vmess_1171
+  - United States_None_vmess_1171
   - United States_None_vmess_1172
   - United States_None_vmess_1173
   - United States_None_vmess_1174
