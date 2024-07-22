@@ -112,7 +112,8 @@
         "🇺🇸 United States_hysteria2_0",
         "🇺🇸 United States_hysteria2_1",
         "🇺🇸 United States_hysteria2_2",
-        "🇺🇸 United States_hysteria2_3"
+        "🇺🇸 United States_hysteria2_3",
+        "🇫🇷 France_vless_0"
       ]
     },
     {
@@ -373,6 +374,7 @@
       "tag": "Others",
       "type": "selector",
       "outbounds": [
+        "🇫🇷 France_vless_0",
         "proxy"
       ]
     },
@@ -387,7 +389,8 @@
         "🇺🇸 United States_hysteria2_0",
         "🇺🇸 United States_hysteria2_1",
         "🇺🇸 United States_hysteria2_2",
-        "🇺🇸 United States_hysteria2_3"
+        "🇺🇸 United States_hysteria2_3",
+        "🇫🇷 France_vless_0"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -408,59 +411,8 @@
     {
       "tag": "🇺🇸 United States_hysteria_0",
       "type": "hysteria",
-      "server": "208.87.243.123",
-      "server_port": 38268,
-      "up_mbps": 11,
-      "down_mbps": 55,
-      "auth_str": "dongtaiwang.com",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.microsoft.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
-      }
-    },
-    {
-      "tag": "🇺🇸 United States_hysteria_1",
-      "type": "hysteria",
-      "server": "208.87.243.123",
-      "server_port": 38268,
-      "up_mbps": 11,
-      "down_mbps": 55,
-      "auth_str": "dongtaiwang.com",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.microsoft.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
-      }
-    },
-    {
-      "tag": "🇺🇸 United States_hysteria_2",
-      "type": "hysteria",
-      "server": "208.87.243.123",
-      "server_port": 38268,
-      "up_mbps": 11,
-      "down_mbps": 55,
-      "auth_str": "dongtaiwang.com",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.microsoft.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
-      }
-    },
-    {
-      "tag": "🇺🇸 United States_hysteria_3",
-      "type": "hysteria",
-      "server": "166.1.18.52",
-      "server_port": 41363,
+      "server": "38.135.52.192",
+      "server_port": 23456,
       "up_mbps": 11,
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
@@ -471,20 +423,75 @@
         "alpn": [
           "h3"
         ]
-      }
+      },
+      "obfs": "dongtaiwang.com"
+    },
+    {
+      "tag": "🇺🇸 United States_hysteria_1",
+      "type": "hysteria",
+      "server": "38.135.52.192",
+      "server_port": 23456,
+      "up_mbps": 11,
+      "down_mbps": 55,
+      "auth_str": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "server_name": "bing.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      },
+      "obfs": "dongtaiwang.com"
+    },
+    {
+      "tag": "🇺🇸 United States_hysteria_2",
+      "type": "hysteria",
+      "server": "38.135.52.192",
+      "server_port": 23456,
+      "up_mbps": 11,
+      "down_mbps": 55,
+      "auth_str": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "server_name": "bing.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      },
+      "obfs": "dongtaiwang.com"
+    },
+    {
+      "tag": "🇺🇸 United States_hysteria_3",
+      "type": "hysteria",
+      "server": "38.135.52.192",
+      "server_port": 23456,
+      "up_mbps": 11,
+      "down_mbps": 55,
+      "auth_str": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "server_name": "bing.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      },
+      "obfs": "dongtaiwang.com"
     },
     {
       "tag": "🇺🇸 United States_hysteria2_0",
       "type": "hysteria2",
-      "server": "38.114.103.210",
-      "server_port": 30647,
+      "server": "hy3.3124845.xyz",
+      "server_port": 443,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
       "tls": {
         "enabled": true,
-        "server_name": "bing.com",
-        "insecure": true,
+        "server_name": "hy3.3124845.xyz",
+        "insecure": false,
         "alpn": [
           "h3"
         ]
@@ -493,15 +500,15 @@
     {
       "tag": "🇺🇸 United States_hysteria2_1",
       "type": "hysteria2",
-      "server": "208.87.243.123",
-      "server_port": 33599,
+      "server": "hy3.3124845.xyz",
+      "server_port": 443,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
       "tls": {
         "enabled": true,
-        "server_name": "bing.com",
-        "insecure": true,
+        "server_name": "hy3.3124845.xyz",
+        "insecure": false,
         "alpn": [
           "h3"
         ]
@@ -510,15 +517,15 @@
     {
       "tag": "🇺🇸 United States_hysteria2_2",
       "type": "hysteria2",
-      "server": "208.87.243.123",
-      "server_port": 33599,
+      "server": "hy3.3124845.xyz",
+      "server_port": 443,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
       "tls": {
         "enabled": true,
-        "server_name": "bing.com",
-        "insecure": true,
+        "server_name": "hy3.3124845.xyz",
+        "insecure": false,
         "alpn": [
           "h3"
         ]
@@ -527,18 +534,41 @@
     {
       "tag": "🇺🇸 United States_hysteria2_3",
       "type": "hysteria2",
-      "server": "208.87.243.123",
-      "server_port": 33599,
+      "server": "hy3.3124845.xyz",
+      "server_port": 443,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
       "tls": {
         "enabled": true,
-        "server_name": "bing.com",
-        "insecure": true,
+        "server_name": "hy3.3124845.xyz",
+        "insecure": false,
         "alpn": [
           "h3"
         ]
+      }
+    },
+    {
+      "tag": "🇫🇷 France_vless_0",
+      "type": "vless",
+      "server": "62.210.101.0",
+      "server_port": 23357,
+      "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "www.yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "U5hsLybYWhJrWAqqsTa052k-VeKt8bDFPxBh3CQk51M",
+          "short_id": "0b4badde"
+        }
       }
     }
   ],
