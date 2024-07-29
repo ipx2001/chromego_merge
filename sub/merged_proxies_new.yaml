@@ -1420,7 +1420,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_094
+- name: None_None_vmess_094
   type: vmess
   server: icook.tw
   port: 2086
@@ -1450,7 +1450,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_096
+- name: None_None_vmess_096
   type: vmess
   server: japan.com
   port: 2086
@@ -1465,7 +1465,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_097
+- name: None_None_vmess_097
   type: vmess
   server: malaysia.com
   port: 2086
@@ -1480,7 +1480,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_098
+- name: United States_None_vmess_098
   type: vmess
   server: russia.com
   port: 2086
@@ -3036,53 +3036,19 @@ proxies:
       Host: mmhk01.micloud.buzz
     path: /zh-cn
 - name: China_None_trojan_1145
-  network: tcp
   password: MfqALmAJ
-  port: 20819
-  server: 36.151.195.77
+  port: 51000
+  server: 36.134.38.49
   skip-cert-verify: true
   type: trojan
-- name: Hong Kong_Central_trojan_1146
-  network: tcp
+- name: Hong Kong_Kowloon_trojan_1146
   password: NUeBvQHox0BmnHpu
   port: 443
-  server: gnmktnwq58.xyz
+  server: hjksdn03.xyz
   skip-cert-verify: false
-  sni: gnmktnwq58.xyz
+  sni: hjksdn03.xyz
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: None_None_vmess_1147
-  network: ws
-  port: '2052'
-  server: 4.6bnw.top
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: b5abc4c0-b518-4195-88b4-57900f16fb65
-  ws-opts:
-    headers:
-      Host: hkbn.6bnw.top
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: United States_None_vmess_1148
-  network: ws
-  port: '2052'
-  server: cfcdn2.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: a223af01-b481-4abf-a305-60d60587d1e4
-  ws-opts:
-    headers:
-      Host: zifstzamhk1.yofnhkfc.xyz
-    path: /video/VuDFdktz
-- name: China_None_trojan_1149
+- name: China_None_trojan_1147
   network: tcp
   password: MfqALmAJ
   port: 31666
@@ -3091,7 +3057,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: None_None_vmess_1150
+  name: None_None_vmess_1148
   network: ws
   port: '2052'
   server: cfcdn3.sanfencdn9.com
@@ -3105,17 +3071,53 @@ proxies:
     headers:
       Host: wtywwcrzjp5.yofnhkfc.xyz
     path: /video/9TfVEyku
-- name: Singapore_Singapore_trojan_1151
-  network: tcp
-  password: cfa36789-94aa-4c4c-ad06-ab35a8eb9312
-  port: 718
-  server: 4sgmax02.156786.xyz
+- name: China_Shenzhen_trojan_1149
+  password: 4bd14bdb-db19-4de4-a452-58b897046d2c
+  port: 29496
+  server: f10002.flyflylflyflysbs.sbs
   skip-cert-verify: false
-  sni: 4sgmax02.156786.xyz
+  sni: jp01.ckcloud.info
   type: trojan
 - alterId: 0
   cipher: auto
-  name: None_None_vmess_1152
+  name: China_Shenzhen_vmess_1150
+  network: ws
+  port: 46011
+  server: mmjp11.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: f9b02d8c-b69b-435f-aa25-68393e5fb121
+  ws-opts:
+    headers:
+      Host: mmjp11.micloud.buzz
+    path: /zh-cn
+- cipher: aes-256-gcm
+  name: Singapore_Singapore_ss_1151
+  password: amazonskr05
+  port: 80
+  server: 13.213.46.65
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: China_Shenzhen_vmess_1152
+  network: ws
+  port: 46016
+  server: mmsg16.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: f9b02d8c-b69b-435f-aa25-68393e5fb121
+  ws-opts:
+    headers:
+      Host: mmsg16.micloud.buzz
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: None_None_vmess_1153
   network: ws
   port: '2086'
   server: 104.19.51.232
@@ -3129,14 +3131,6 @@ proxies:
     headers:
       Host: ip005.dtku47.xyz
     path: github.com/Alvin9999
-- name: Taiwan_Taipei_trojan_1153
-  network: tcp
-  password: cfa36789-94aa-4c4c-ad06-ab35a8eb9312
-  port: 18298
-  server: tw60.233235.xyz
-  skip-cert-verify: false
-  sni: usmax03.170203.xyz
-  type: trojan
 - alterId: 0
   cipher: auto
   name: None_None_vmess_1154
@@ -3169,9 +3163,30 @@ proxies:
     headers:
       Host: ip14.freegradely.xyz
     path: github.com/Alvin9999
+- cipher: aes-256-cfb
+  name: Japan_Tokyo_ss_1156
+  password: amazonskr05
+  port: 443
+  server: 54.95.170.220
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: Singapore_Singapore_ss_1157
+  password: amazonskr05
+  port: 443
+  server: 13.212.113.208
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: South Korea_Incheon_ss_1158
+  password: amazonskr05
+  port: 443
+  server: 52.78.200.155
+  tfo: false
+  type: ss
 - alterId: 64
   cipher: auto
-  name: China_None_vmess_1156
+  name: China_None_vmess_1159
   network: tcp
   port: '45020'
   server: 183.236.51.23
@@ -3181,7 +3196,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: China_Shenzhen_vmess_1157
+  name: China_Guangzhou_vmess_1160
   network: ws
   port: '46001'
   server: mmhk01.micloud.buzz
@@ -3193,9 +3208,65 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
+- name: China_None_trojan_1161
+  network: tcp
+  password: MfqALmAJ
+  port: 20819
+  server: 36.151.195.77
+  skip-cert-verify: true
+  type: trojan
+- name: Hong Kong_Central_trojan_1162
+  network: tcp
+  password: NUeBvQHox0BmnHpu
+  port: 443
+  server: gnmktnwq58.xyz
+  sni: gnmktnwq58.xyz
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: China_None_trojan_1158
+  name: None_None_vmess_1163
+  network: ws
+  port: '2052'
+  server: 4.6bnw.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b5abc4c0-b518-4195-88b4-57900f16fb65
+  ws-opts:
+    headers:
+      Host: hkbn.6bnw.top
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: United States_None_vmess_1164
+  network: ws
+  port: '2052'
+  server: cfcdn2.sanfencdn9.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a223af01-b481-4abf-a305-60d60587d1e4
+  ws-opts:
+    headers:
+      Host: zifstzamhk1.yofnhkfc.xyz
+    path: /video/VuDFdktz
+- name: Singapore_Singapore_trojan_1165
+  network: tcp
+  password: cfa36789-94aa-4c4c-ad06-ab35a8eb9312
+  port: 718
+  server: 4sgmax02.156786.xyz
+  sni: 4sgmax02.156786.xyz
+  type: trojan
+- name: Taiwan_Taipei_trojan_1166
+  network: tcp
+  password: cfa36789-94aa-4c4c-ad06-ab35a8eb9312
+  port: 18298
+  server: tw60.233235.xyz
+  sni: usmax03.170203.xyz
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: China_None_trojan_1167
   password: MfqALmAJ
   port: 40081
   server: 183.232.139.24
@@ -3204,14 +3275,14 @@ proxies:
   tfo: false
   type: trojan
   uuid: 4ff0df2c-2092-36ab-882f-29e46fea089c
-- name: China_None_trojan_1159
+- name: China_None_trojan_1168
   password: MfqALmAJ
   port: 40081
   server: 183.232.139.24
   skip-cert-verify: true
   type: trojan
   udp: false
-- name: Sweden_Stockholm_trojan_1160
+- name: Sweden_Stockholm_trojan_1169
   password: telegram-id-privatevpns
   port: 22222
   server: 13.60.141.186
@@ -3219,7 +3290,7 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: false
-- name: Japan_Tokyo_trojan_1161
+- name: Japan_Tokyo_trojan_1170
   password: epDl3yFT5CNCKazFSqAxDOAyau3IXjxl63YcZSE0248BnZ7gOa8C9pYR3weSDR
   port: 28342
   server: okelvv.superpokemon.com
@@ -3229,7 +3300,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: China_None_vmess_1162
+  name: China_None_vmess_1171
   network: tcp
   port: '443'
   server: 42.236.73.72
@@ -3239,7 +3310,7 @@ proxies:
   uuid: 044f0177-0675-4dcf-89d4-804b6788e518
 - alpn:
   - http%2F1.1
-  name: China_None_trojan_1163
+  name: China_None_trojan_1172
   network: tcp
   password: fuck
   port: 443
@@ -3450,11 +3521,11 @@ proxy-groups:
   - United States_San Francisco_vmess_091
   - None_None_vmess_092
   - Canada_Ottawa_vmess_093
-  - United States_None_vmess_094
+  - None_None_vmess_094
   - United States_None_vmess_095
-  - United States_None_vmess_096
-  - United States_None_vmess_097
-  - None_None_vmess_098
+  - None_None_vmess_096
+  - None_None_vmess_097
+  - United States_None_vmess_098
   - None_None_vmess_099
   - None_None_vmess_0100
   - None_None_vmess_0101
@@ -3560,24 +3631,33 @@ proxy-groups:
   - China_None_vmess_1143
   - China_Shenzhen_vmess_1144
   - China_None_trojan_1145
-  - Hong Kong_Central_trojan_1146
-  - None_None_vmess_1147
-  - United States_None_vmess_1148
-  - China_None_trojan_1149
-  - None_None_vmess_1150
-  - Singapore_Singapore_trojan_1151
-  - None_None_vmess_1152
-  - Taiwan_Taipei_trojan_1153
+  - Hong Kong_Kowloon_trojan_1146
+  - China_None_trojan_1147
+  - None_None_vmess_1148
+  - China_Shenzhen_trojan_1149
+  - China_Shenzhen_vmess_1150
+  - Singapore_Singapore_ss_1151
+  - China_Shenzhen_vmess_1152
+  - None_None_vmess_1153
   - None_None_vmess_1154
   - None_None_vmess_1155
-  - China_None_vmess_1156
-  - China_Shenzhen_vmess_1157
-  - China_None_trojan_1158
-  - China_None_trojan_1159
-  - Sweden_Stockholm_trojan_1160
-  - Japan_Tokyo_trojan_1161
-  - China_None_vmess_1162
-  - China_None_trojan_1163
+  - Japan_Tokyo_ss_1156
+  - Singapore_Singapore_ss_1157
+  - South Korea_Incheon_ss_1158
+  - China_None_vmess_1159
+  - China_Guangzhou_vmess_1160
+  - China_None_trojan_1161
+  - Hong Kong_Central_trojan_1162
+  - None_None_vmess_1163
+  - United States_None_vmess_1164
+  - Singapore_Singapore_trojan_1165
+  - Taiwan_Taipei_trojan_1166
+  - China_None_trojan_1167
+  - China_None_trojan_1168
+  - Sweden_Stockholm_trojan_1169
+  - Japan_Tokyo_trojan_1170
+  - China_None_vmess_1171
+  - China_None_trojan_1172
   - United States_Dallas_hy_0
   - United States_Dallas_hy_1
   - United States_Dallas_hy_2
@@ -3686,11 +3766,11 @@ proxy-groups:
   - United States_San Francisco_vmess_091
   - None_None_vmess_092
   - Canada_Ottawa_vmess_093
-  - United States_None_vmess_094
+  - None_None_vmess_094
   - United States_None_vmess_095
-  - United States_None_vmess_096
-  - United States_None_vmess_097
-  - None_None_vmess_098
+  - None_None_vmess_096
+  - None_None_vmess_097
+  - United States_None_vmess_098
   - None_None_vmess_099
   - None_None_vmess_0100
   - None_None_vmess_0101
@@ -3796,24 +3876,33 @@ proxy-groups:
   - China_None_vmess_1143
   - China_Shenzhen_vmess_1144
   - China_None_trojan_1145
-  - Hong Kong_Central_trojan_1146
-  - None_None_vmess_1147
-  - United States_None_vmess_1148
-  - China_None_trojan_1149
-  - None_None_vmess_1150
-  - Singapore_Singapore_trojan_1151
-  - None_None_vmess_1152
-  - Taiwan_Taipei_trojan_1153
+  - Hong Kong_Kowloon_trojan_1146
+  - China_None_trojan_1147
+  - None_None_vmess_1148
+  - China_Shenzhen_trojan_1149
+  - China_Shenzhen_vmess_1150
+  - Singapore_Singapore_ss_1151
+  - China_Shenzhen_vmess_1152
+  - None_None_vmess_1153
   - None_None_vmess_1154
   - None_None_vmess_1155
-  - China_None_vmess_1156
-  - China_Shenzhen_vmess_1157
-  - China_None_trojan_1158
-  - China_None_trojan_1159
-  - Sweden_Stockholm_trojan_1160
-  - Japan_Tokyo_trojan_1161
-  - China_None_vmess_1162
-  - China_None_trojan_1163
+  - Japan_Tokyo_ss_1156
+  - Singapore_Singapore_ss_1157
+  - South Korea_Incheon_ss_1158
+  - China_None_vmess_1159
+  - China_Guangzhou_vmess_1160
+  - China_None_trojan_1161
+  - Hong Kong_Central_trojan_1162
+  - None_None_vmess_1163
+  - United States_None_vmess_1164
+  - Singapore_Singapore_trojan_1165
+  - Taiwan_Taipei_trojan_1166
+  - China_None_trojan_1167
+  - China_None_trojan_1168
+  - Sweden_Stockholm_trojan_1169
+  - Japan_Tokyo_trojan_1170
+  - China_None_vmess_1171
+  - China_None_trojan_1172
   - United States_Dallas_hy_0
   - United States_Dallas_hy_1
   - United States_Dallas_hy_2
