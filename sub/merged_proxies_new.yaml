@@ -1450,7 +1450,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_096
+- name: None_None_vmess_096
   type: vmess
   server: japan.com
   port: 2086
@@ -1495,7 +1495,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_099
+- name: United States_None_vmess_099
   type: vmess
   server: singapore.com
   port: 2086
@@ -1510,7 +1510,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_0100
+- name: United States_None_vmess_0100
   type: vmess
   server: skk.moe
   port: 2086
@@ -3108,7 +3108,7 @@ proxies:
     headers:
       Host: jp1-july.88888802.xyz
     path: /91838f3b905c42c7aa5b664b27d8193b
-- name: United States_None_trojan_1152
+- name: None_None_trojan_1152
   network: ws
   password: f2191442-1436-3d79-801e-80d8de896c73
   port: 443
@@ -3276,7 +3276,7 @@ proxies:
   uuid: 273a61f5-03b5-4449-9d18-7e914d3808c4
 - alterId: 0
   cipher: auto
-  name: China_Shenzhen_vmess_1164
+  name: China_Guangzhou_vmess_1164
   network: ws
   port: '46001'
   server: mmhk01.micloud.buzz
@@ -3308,7 +3308,7 @@ proxies:
   tls: false
   type: vmess
   uuid: d08b6b45-cd8a-4d36-a0fe-ef626b94fc27
-- name: None_None_trojan_1167
+- name: United States_None_trojan_1167
   network: ws
   password: f2191442-1436-3d79-801e-80d8de896c73
   port: 443
@@ -3352,7 +3352,7 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
-- name: United States_None_trojan_1171
+- name: None_None_trojan_1171
   network: ws
   password: f2191442-1436-3d79-801e-80d8de896c73
   port: 443
@@ -3619,11 +3619,11 @@ proxy-groups:
   - Canada_Ottawa_vmess_093
   - None_None_vmess_094
   - United States_None_vmess_095
-  - United States_None_vmess_096
+  - None_None_vmess_096
   - None_None_vmess_097
   - None_None_vmess_098
-  - None_None_vmess_099
-  - None_None_vmess_0100
+  - United States_None_vmess_099
+  - United States_None_vmess_0100
   - None_None_vmess_0101
   - None_None_vmess_11
   - None_None_vmess_12
@@ -3733,7 +3733,7 @@ proxy-groups:
   - None_None_vmess_1149
   - China_None_trojan_1150
   - None_None_trojan_1151
-  - United States_None_trojan_1152
+  - None_None_trojan_1152
   - None_None_vmess_1153
   - China_Shenzhen_vmess_1154
   - None_None_vmess_1155
@@ -3745,14 +3745,14 @@ proxy-groups:
   - China_Shenzhen_vmess_1161
   - None_None_vmess_1162
   - China_None_vmess_1163
-  - China_Shenzhen_vmess_1164
+  - China_Guangzhou_vmess_1164
   - China_None_vmess_1165
   - China_None_vmess_1166
-  - None_None_trojan_1167
+  - United States_None_trojan_1167
   - United States_None_trojan_1168
   - China_Shenzhen_vmess_1169
   - China_Shenzhen_vmess_1170
-  - United States_None_trojan_1171
+  - None_None_trojan_1171
   - China_Shenzhen_vmess_1172
   - France_None_trojan_1173
   - Seychelles_None_trojan_1174
@@ -3868,11 +3868,11 @@ proxy-groups:
   - Canada_Ottawa_vmess_093
   - None_None_vmess_094
   - United States_None_vmess_095
-  - United States_None_vmess_096
+  - None_None_vmess_096
   - None_None_vmess_097
   - None_None_vmess_098
-  - None_None_vmess_099
-  - None_None_vmess_0100
+  - United States_None_vmess_099
+  - United States_None_vmess_0100
   - None_None_vmess_0101
   - None_None_vmess_11
   - None_None_vmess_12
@@ -3982,7 +3982,7 @@ proxy-groups:
   - None_None_vmess_1149
   - China_None_trojan_1150
   - None_None_trojan_1151
-  - United States_None_trojan_1152
+  - None_None_trojan_1152
   - None_None_vmess_1153
   - China_Shenzhen_vmess_1154
   - None_None_vmess_1155
@@ -3994,14 +3994,14 @@ proxy-groups:
   - China_Shenzhen_vmess_1161
   - None_None_vmess_1162
   - China_None_vmess_1163
-  - China_Shenzhen_vmess_1164
+  - China_Guangzhou_vmess_1164
   - China_None_vmess_1165
   - China_None_vmess_1166
-  - None_None_trojan_1167
+  - United States_None_trojan_1167
   - United States_None_trojan_1168
   - China_Shenzhen_vmess_1169
   - China_Shenzhen_vmess_1170
-  - United States_None_trojan_1171
+  - None_None_trojan_1171
   - China_Shenzhen_vmess_1172
   - France_None_trojan_1173
   - Seychelles_None_trojan_1174
