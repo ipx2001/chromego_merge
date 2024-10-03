@@ -105,7 +105,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇺🇸 United States_vless_5",
         "🇺🇸 United States_hysteria_0",
         "🇺🇸 United States_hysteria_1",
         "🇺🇸 United States_hysteria_2",
@@ -359,7 +358,6 @@
       "tag": "America",
       "type": "selector",
       "outbounds": [
-        "🇺🇸 United States_vless_5",
         "🇺🇸 United States_hysteria_0",
         "🇺🇸 United States_hysteria_1",
         "🇺🇸 United States_hysteria_2",
@@ -382,7 +380,6 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇺🇸 United States_vless_5",
         "🇺🇸 United States_hysteria_0",
         "🇺🇸 United States_hysteria_1",
         "🇺🇸 United States_hysteria_2",
@@ -407,29 +404,6 @@
     {
       "type": "block",
       "tag": "block"
-    },
-    {
-      "tag": "🇺🇸 United States_vless_5",
-      "type": "vless",
-      "server": "108.181.5.21",
-      "server_port": 56319,
-      "uuid": "25d1b318-87e8-4c1e-a784-69783be4b30a",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "www.yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "tSLtMh9ypKHKhszEhkSGKOG0wp4de5qt65hWNBz1cW0",
-          "short_id": "12a08916"
-        }
-      }
     },
     {
       "tag": "🇺🇸 United States_hysteria_0",
