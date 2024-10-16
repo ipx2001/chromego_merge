@@ -109,7 +109,7 @@
         "🇷🇺 Russia_hy_7",
         "🇷🇺 Russia_hy_8",
         "🇷🇺 Russia_hy_9",
-        "🇷🇺 Russia_hysteria_0",
+        "🇫🇷 France_hysteria_0",
         "🇷🇺 Russia_hysteria_1",
         "🇷🇺 Russia_hysteria_2",
         "🇷🇺 Russia_hysteria_3",
@@ -366,7 +366,6 @@
         "🇷🇺 Russia_hy_7",
         "🇷🇺 Russia_hy_8",
         "🇷🇺 Russia_hy_9",
-        "🇷🇺 Russia_hysteria_0",
         "🇷🇺 Russia_hysteria_1",
         "🇷🇺 Russia_hysteria_2",
         "🇷🇺 Russia_hysteria_3",
@@ -381,6 +380,7 @@
       "tag": "Others",
       "type": "selector",
       "outbounds": [
+        "🇫🇷 France_hysteria_0",
         "proxy"
       ]
     },
@@ -392,7 +392,7 @@
         "🇷🇺 Russia_hy_7",
         "🇷🇺 Russia_hy_8",
         "🇷🇺 Russia_hy_9",
-        "🇷🇺 Russia_hysteria_0",
+        "🇫🇷 France_hysteria_0",
         "🇷🇺 Russia_hysteria_1",
         "🇷🇺 Russia_hysteria_2",
         "🇷🇺 Russia_hysteria_3",
@@ -486,10 +486,10 @@
       }
     },
     {
-      "tag": "🇷🇺 Russia_hysteria_0",
+      "tag": "🇫🇷 France_hysteria_0",
       "type": "hysteria",
-      "server": "46.17.43.223",
-      "server_port": 12311,
+      "server": "62.210.8.63",
+      "server_port": 2345,
       "up_mbps": 11,
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
