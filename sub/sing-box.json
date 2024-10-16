@@ -105,10 +105,10 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇺 Russia_hy_6",
-        "🇷🇺 Russia_hy_7",
-        "🇷🇺 Russia_hy_8",
-        "🇷🇺 Russia_hy_9",
+        "🇷🇺 Russia_vless_6",
+        "🇷🇺 Russia_vless_7",
+        "🇷🇺 Russia_vless_8",
+        "🇷🇺 Russia_vless_9",
         "🇫🇷 France_hysteria_0",
         "🇷🇺 Russia_hysteria_1",
         "🇷🇺 Russia_hysteria_2",
@@ -362,10 +362,10 @@
       "tag": "America",
       "type": "selector",
       "outbounds": [
-        "🇷🇺 Russia_hy_6",
-        "🇷🇺 Russia_hy_7",
-        "🇷🇺 Russia_hy_8",
-        "🇷🇺 Russia_hy_9",
+        "🇷🇺 Russia_vless_6",
+        "🇷🇺 Russia_vless_7",
+        "🇷🇺 Russia_vless_8",
+        "🇷🇺 Russia_vless_9",
         "🇷🇺 Russia_hysteria_1",
         "🇷🇺 Russia_hysteria_2",
         "🇷🇺 Russia_hysteria_3",
@@ -388,10 +388,10 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇷🇺 Russia_hy_6",
-        "🇷🇺 Russia_hy_7",
-        "🇷🇺 Russia_hy_8",
-        "🇷🇺 Russia_hy_9",
+        "🇷🇺 Russia_vless_6",
+        "🇷🇺 Russia_vless_7",
+        "🇷🇺 Russia_vless_8",
+        "🇷🇺 Russia_vless_9",
         "🇫🇷 France_hysteria_0",
         "🇷🇺 Russia_hysteria_1",
         "🇷🇺 Russia_hysteria_2",
@@ -418,71 +418,91 @@
       "tag": "block"
     },
     {
-      "tag": "🇷🇺 Russia_hy_6",
-      "type": "hysteria",
+      "tag": "🇷🇺 Russia_vless_6",
+      "type": "vless",
       "server": "46.29.166.206",
-      "server_port": 100,
-      "up_mbps": 50,
-      "down_mbps": 80,
-      "auth_str": "",
+      "server_port": 400,
+      "uuid": "ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
+        "insecure": false,
+        "server_name": "www.paypal.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI"
+        }
       }
     },
     {
-      "tag": "🇷🇺 Russia_hy_7",
-      "type": "hysteria",
+      "tag": "🇷🇺 Russia_vless_7",
+      "type": "vless",
       "server": "46.29.166.206",
-      "server_port": 100,
-      "up_mbps": 50,
-      "down_mbps": 80,
-      "auth_str": "",
+      "server_port": 400,
+      "uuid": "ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
+        "insecure": false,
+        "server_name": "www.paypal.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI"
+        }
       }
     },
     {
-      "tag": "🇷🇺 Russia_hy_8",
-      "type": "hysteria",
+      "tag": "🇷🇺 Russia_vless_8",
+      "type": "vless",
       "server": "46.29.166.206",
-      "server_port": 100,
-      "up_mbps": 50,
-      "down_mbps": 80,
-      "auth_str": "",
+      "server_port": 400,
+      "uuid": "ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
+        "insecure": false,
+        "server_name": "www.paypal.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI"
+        }
       }
     },
     {
-      "tag": "🇷🇺 Russia_hy_9",
-      "type": "hysteria",
+      "tag": "🇷🇺 Russia_vless_9",
+      "type": "vless",
       "server": "46.29.166.206",
-      "server_port": 100,
-      "up_mbps": 50,
-      "down_mbps": 80,
-      "auth_str": "",
+      "server_port": 400,
+      "uuid": "ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
+        "insecure": false,
+        "server_name": "www.paypal.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI"
+        }
       }
     },
     {
