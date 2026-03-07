@@ -330,7 +330,7 @@ proxies:
     path: /iSRWSKUJKNuXvVzsYHmsMrnO
 - alpn:
   - http/1.1
-  name: None_None_trojan_1120
+  name: United States_None_trojan_1120
   network: ws
   password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
   port: 443
@@ -342,7 +342,7 @@ proxies:
     headers:
       Host: mjki.1nn.ccwu.cc
     path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
-- name: United States_None_trojan_1121
+- name: None_None_trojan_1121
   network: ws
   password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
   port: 443
@@ -533,8 +533,8 @@ proxy-groups:
   - China_None_vmess_1117
   - Taiwan_Chiayi City_trojan_1118
   - United States_None_vmess_1119
-  - None_None_trojan_1120
-  - United States_None_trojan_1121
+  - United States_None_trojan_1120
+  - None_None_trojan_1121
   - China_None_vmess_1122
   - China_None_vmess_1123
   - United States_None_ss_1124
@@ -592,8 +592,8 @@ proxy-groups:
   - China_None_vmess_1117
   - Taiwan_Chiayi City_trojan_1118
   - United States_None_vmess_1119
-  - None_None_trojan_1120
-  - United States_None_trojan_1121
+  - United States_None_trojan_1120
+  - None_None_trojan_1121
   - China_None_vmess_1122
   - China_None_vmess_1123
   - United States_None_ss_1124
